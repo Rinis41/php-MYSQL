@@ -2,7 +2,7 @@
     $server = 'localhost';
     $username = 'root';
     $password = '';
-    $dbname = 'Rinis';
+    $dbname = 'riga';
 
     try{
         $connect = new PDO("mysql:host=$server;dbname=$dbname", $username, $password);
